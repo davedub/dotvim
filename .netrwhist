@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='Documents'
 let g:netrw_dirhist_2='Documents/Dev'
 let g:netrw_dirhist_3='Documents/Dev/Vim'
-let g:netrw_dirhist_4='/Users/WitusMBP13'
-let g:netrw_dirhist_5='/Users/WitusMBP13/documents/dev/vim'
-let g:netrw_dirhist_6='/Users/WitusMBP13/documents/dev/vim/foo'
+let g:netrw_dirhist_4='Documents'
+let g:netrw_dirhist_5='Documents/Vim'
+let g:netrw_dirhist_6='Documents/Vim/foo'
+let g:netrw_dirhist_7='/Users/WitusMBP13'
+let g:netrw_dirhist_8='/Users'
+let g:netrw_dirhist_9='/Users/WitusMBP13/Dropbox/Editors/Vim'

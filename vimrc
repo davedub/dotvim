@@ -8,6 +8,9 @@ call pathogen#helptags()
 " See https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
+" See https://github.com/altercation/vim-colors-solarized/issues/40"
+" should not need to do this - it's already on line46- call togglemapbg#map()
+
 " per https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 set background=dark
 colorscheme solarized
@@ -40,7 +43,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 " toggle background brightness with F5
-call togglebg#map("<F5>")
+call togglebg#map("")
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -148,10 +151,10 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
 " Troll @hoverbird
-map <Left> :echo "No left key for you Patrick!"<cr>
-map <Right> :echo "No right key for you Patrick!"<cr>
-map <Up> :echo "No up key for you Patrick!"<cr>
-map <Down> :echo "No down key for you Patrick!"<cr>
+map <Left> :echo "Left key unavailable!"<cr>
+map <Right> :echo "Right key unavailable!"<cr>
+map <Up> :echo "Up key unavailable!"<cr>
+map <Down> :echo "Down key unavailable!"<cr>
 
 " Show me those sneaky tabs and trailing spaces
 set list listchars=tab:»·,trail:·
