@@ -55,6 +55,12 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" allow arrow keys to function same as h/j/k/l
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
