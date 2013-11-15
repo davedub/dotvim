@@ -8,9 +8,6 @@ call pathogen#helptags()
 " See https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
-" See https://github.com/altercation/vim-colors-solarized/issues/40"
-" should not need to do this - it's already on line46- call togglemapbg#map()
-
 " per https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 set background=dark
 colorscheme solarized
@@ -43,7 +40,8 @@ syntax enable
 set background=dark
 colorscheme solarized
 " toggle background brightness with F5
-call togglebg#map("")
+" this doesn't seem to work - call togglebg#map("") - even with change suggested in next line
+" See https://github.com/altercation/vim-colors-solarized/issues/40"
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
