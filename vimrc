@@ -154,12 +154,6 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
-" Troll @hoverbird
-map <Left> :echo "Left key unavailable!"<cr>
-map <Right> :echo "Right key unavailable!"<cr>
-map <Up> :echo "Up key unavailable!"<cr>
-map <Down> :echo "Down key unavailable!"<cr>
-
 " Show me those sneaky tabs and trailing spaces
 set list listchars=tab:»·,trail:·
 
