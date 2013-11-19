@@ -1,6 +1,6 @@
-" Pathogen makes it much easier to use git submodules
+" Pathogen makes it easier to use git submodules
 " See http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-" for more details.
+" for details
 call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
